@@ -12,3 +12,6 @@ Feature: Simple buttons
         When I click on the "Id Button" element
         Then I should be on the page with the title "Button success - Ultimate QA"
         And I should see the element "Button Success Page Title" with text "Button success"
+
+    @pending
+    Scenario: Can click on a button using it's class name
