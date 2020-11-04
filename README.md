@@ -1,20 +1,11 @@
-Cucumber Boilerplate
+WebdriverIO And Cucumber
 ====================
 
-[![Build Status](https://travis-ci.org/webdriverio/cucumber-boilerplate.svg?branch=master)](https://travis-ci.org/webdriverio/cucumber-boilerplate)
-
-***
-
-Boilerplate project to run WebdriverIO tests with [Cucumber](https://cucumber.io/) and brings **true** [BDD](http://en.wikipedia.org/wiki/Behavior-driven_development) to JavaScript. Instead of writing complicated test code that only developers can understand, Cucumber maps an ordinary language to code and allows to start with the test process in the early stages of your product development.
-
-## Requirements
-
-- Node version 8 or higher
-- A preconfigured Selenium Grid, preinstalled browser driver or cloud provider account
-
-Although this project works fine with NPM we recommend to use Yarn (>= 1.0.0) instead,  due to its speed & solid dependency locking mechanism. To keep things simple we use yarn in this guide, but feel free to replace this with NPM if that is what you are using.
-
-Also this project doesn't cover setting up a proper test environment. You need to download specific browser driver yourself and run the prior starting tests or use a cloud provider like [SauceLabs](https://saucelabs.com/).
+I have created this repo to show that I am capable of setting up a webdriverio framework with the addition of Cucumber for good BDD testing.
+Included are two feature files for some basic web automation around actions and verifications.
+One feature file includes separate scenarios for different button selectors and the other contains one scenario outline which covers everything in the
+first feature file.
+This repo also contains a great reporting tool called Allure.
 
 ## Quick start
 
