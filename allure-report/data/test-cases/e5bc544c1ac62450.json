@@ -1,0 +1,56 @@
+{
+  "uid" : "e5bc544c1ac62450",
+  "name" : "Hook",
+  "fullName" : "Simple buttons individual: Can click on a button using it's class name.Hook",
+  "historyId" : "dda6cb339f9d6deb547c2d3ee8c365df",
+  "time" : {
+    "start" : 1604508267942,
+    "stop" : 1604508267942,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5bc544c1ac62450.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

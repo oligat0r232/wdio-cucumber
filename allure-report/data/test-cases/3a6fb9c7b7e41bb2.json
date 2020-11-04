@@ -1,0 +1,56 @@
+{
+  "uid" : "3a6fb9c7b7e41bb2",
+  "name" : "And I navigate to the \"SimpleHtmlElements\" page",
+  "fullName" : "Simple buttons scenario outline: Can click on a button using different selectors.And I navigate to the \"SimpleHtmlElements\" page",
+  "historyId" : "86aee9ada8feb32bd80621300400707a",
+  "time" : {
+    "start" : 1604508266249,
+    "stop" : 1604508266250,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I navigate to the \"SimpleHtmlElements\" page"
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a6fb9c7b7e41bb2.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

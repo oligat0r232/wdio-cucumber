@@ -1,0 +1,58 @@
+{
+  "uid" : "e06228de92e98bbd",
+  "name" : "When I click on the button with \"class\" selector",
+  "fullName" : "Simple buttons scenario outline: Can click on a button using different selectors.When I click on the button with \"class\" selector",
+  "historyId" : "5deafb3ad43e9ab6661988ad308ddd1a",
+  "time" : {
+    "start" : 1604508267870,
+    "stop" : 1604508267925,
+    "duration" : 55
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on the button with \"class\" selector"
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e06228de92e98bbd.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

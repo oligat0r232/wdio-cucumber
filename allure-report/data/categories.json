@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"Button success - Ultimate QA\"\n                Received string:    \"Link success - Ultimate QA\"",
+      "children" : [ {
+        "name" : "Then I should be on the page with the title \"Button success - Ultimate QA\"",
+        "uid" : "2a4175711f9f8de3",
+        "parentUid" : "07b00387987bcb4b956fe03ed2e0c957",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604508273504,
+          "stop" : 1604508274128,
+          "duration" : 624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome-86.0.4240.183" ]
+      } ],
+      "uid" : "07b00387987bcb4b956fe03ed2e0c957"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

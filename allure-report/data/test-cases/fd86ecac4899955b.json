@@ -1,0 +1,58 @@
+{
+  "uid" : "fd86ecac4899955b",
+  "name" : "When I click on the button with \"linkText\" selector",
+  "fullName" : "Simple buttons scenario outline: Can click on a button using different selectors.When I click on the button with \"linkText\" selector",
+  "historyId" : "735caf13c3833e77c6977d1964222092",
+  "time" : {
+    "start" : 1604508272506,
+    "stop" : 1604508272873,
+    "duration" : 367
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on the button with \"linkText\" selector"
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd86ecac4899955b.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

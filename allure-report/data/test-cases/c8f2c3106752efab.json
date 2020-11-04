@@ -1,0 +1,56 @@
+{
+  "uid" : "c8f2c3106752efab",
+  "name" : "Hook",
+  "fullName" : "Simple buttons scenario outline: Can click on a button using different selectors.Hook",
+  "historyId" : "131d8565a94413dc30e2851d7d1a0c55",
+  "time" : {
+    "start" : 1604508267392,
+    "stop" : 1604508267393,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8f2c3106752efab.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

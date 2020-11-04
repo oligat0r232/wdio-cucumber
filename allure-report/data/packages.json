@@ -1,0 +1,355 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Simple buttons individual: Can click on a button using it's id",
+    "children" : [ {
+      "name" : "Given I open the \"simple-html-elements-for-automation\" page",
+      "uid" : "8ae99ef34a465aa9",
+      "parentUid" : "8edd78e68b0c1edc6a36016fe4534b40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508264457,
+        "stop" : 1604508266866,
+        "duration" : 2409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "And I navigate to the \"SimpleHtmlElements\" page",
+      "uid" : "bac49405dd895007",
+      "parentUid" : "8edd78e68b0c1edc6a36016fe4534b40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508266867,
+        "stop" : 1604508266868,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "When I click on the \"Id Button\" element",
+      "uid" : "9d606a90bd68414f",
+      "parentUid" : "8edd78e68b0c1edc6a36016fe4534b40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508266868,
+        "stop" : 1604508266949,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Then I should be on the page with the title \"Button success - Ultimate QA\"",
+      "uid" : "b910a081fa7284fb",
+      "parentUid" : "8edd78e68b0c1edc6a36016fe4534b40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508266949,
+        "stop" : 1604508267914,
+        "duration" : 965
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "And I should see the element \"Success Page Title\" with text \"Button success\"",
+      "uid" : "b3417617fb6a8b7c",
+      "parentUid" : "8edd78e68b0c1edc6a36016fe4534b40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508267914,
+        "stop" : 1604508267932,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "6a05f542a7c002a2",
+      "parentUid" : "8edd78e68b0c1edc6a36016fe4534b40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508267932,
+        "stop" : 1604508267932,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    } ],
+    "uid" : "8edd78e68b0c1edc6a36016fe4534b40"
+  }, {
+    "name" : "Simple buttons scenario outline: Can click on a button using different selectors",
+    "children" : [ {
+      "name" : "When I click on the button with \"id\" selector",
+      "uid" : "406df93f5c00c40b",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508266250,
+        "stop" : 1604508266381,
+        "duration" : 131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "When I click on the button with \"class\" selector",
+      "uid" : "e06228de92e98bbd",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508267870,
+        "stop" : 1604508267925,
+        "duration" : 55
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "When I click on the button with \"name\" selector",
+      "uid" : "7fca7d0f0d747894",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508269391,
+        "stop" : 1604508269443,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Then I should be on the page with the title \"Button success - Ultimate QA\"",
+      "uid" : "31db208537a98eda",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508269443,
+        "stop" : 1604508272099,
+        "duration" : 2656
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "And I should see the element \"Success Page Title\" with text \"Button success\"",
+      "uid" : "be8d75ecfb9d6ea7",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508272099,
+        "stop" : 1604508272112,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Given I open the \"simple-html-elements-for-automation\" page",
+      "uid" : "7981b32b314409ff",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508272119,
+        "stop" : 1604508272505,
+        "duration" : 386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "And I navigate to the \"SimpleHtmlElements\" page",
+      "uid" : "b782b772f71c605e",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508272505,
+        "stop" : 1604508272506,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "When I click on the button with \"linkText\" selector",
+      "uid" : "fd86ecac4899955b",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508272506,
+        "stop" : 1604508272873,
+        "duration" : 367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Then I should be on the page with the title \"Link success - Ultimate QA\"",
+      "uid" : "ebaa0653c9488e38",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508272873,
+        "stop" : 1604508273431,
+        "duration" : 558
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "And I should see the element \"Success Page Title\" with text \"Link success\"",
+      "uid" : "4f91d3e5ca10343d",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508273431,
+        "stop" : 1604508273443,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "76ae4f50a018a4c4",
+      "parentUid" : "8dcbd6374d349f1fd3078df95dca77ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508273443,
+        "stop" : 1604508273443,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    } ],
+    "uid" : "8dcbd6374d349f1fd3078df95dca77ff"
+  }, {
+    "name" : "Simple buttons individual: Can click on a button using it's class name",
+    "children" : [ {
+      "name" : "When I click on the \"Class Button\" element",
+      "uid" : "7a134a001bfdf086",
+      "parentUid" : "56f093afa2015c97d99615c4c2afa18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508268418,
+        "stop" : 1604508268475,
+        "duration" : 57
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "When I click on the \"Name Button\" element",
+      "uid" : "7d9de6917e4aa288",
+      "parentUid" : "56f093afa2015c97d99615c4c2afa18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508270250,
+        "stop" : 1604508270311,
+        "duration" : 61
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "And I should see the element \"Success Page Title\" with text \"Button success\"",
+      "uid" : "c9e4430dceca865f",
+      "parentUid" : "56f093afa2015c97d99615c4c2afa18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508272541,
+        "stop" : 1604508272560,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Given I open the \"simple-html-elements-for-automation\" page",
+      "uid" : "49b544f6890ceb8c",
+      "parentUid" : "56f093afa2015c97d99615c4c2afa18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508272567,
+        "stop" : 1604508273175,
+        "duration" : 608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "And I navigate to the \"SimpleHtmlElements\" page",
+      "uid" : "79c9ffcb04133146",
+      "parentUid" : "56f093afa2015c97d99615c4c2afa18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508273175,
+        "stop" : 1604508273176,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "When I click on the \"Link Text Button\" element",
+      "uid" : "f69964d0a6b72601",
+      "parentUid" : "56f093afa2015c97d99615c4c2afa18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508273176,
+        "stop" : 1604508273504,
+        "duration" : 328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Then I should be on the page with the title \"Button success - Ultimate QA\"",
+      "uid" : "2a4175711f9f8de3",
+      "parentUid" : "56f093afa2015c97d99615c4c2afa18b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1604508273504,
+        "stop" : 1604508274128,
+        "duration" : 624
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "And I should see the element \"Success Page Title\" with text \"Link success\"",
+      "uid" : "9f8c7786a9eb57d",
+      "parentUid" : "56f093afa2015c97d99615c4c2afa18b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1604508274128,
+        "stop" : 1604508274128,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "beb0d058822c37bb",
+      "parentUid" : "56f093afa2015c97d99615c4c2afa18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508274128,
+        "stop" : 1604508274129,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-86.0.4240.183" ]
+    } ],
+    "uid" : "56f093afa2015c97d99615c4c2afa18b"
+  } ]
+}

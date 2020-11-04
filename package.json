@@ -30,9 +30,12 @@
     "test:lint": "eslint 'src/**/*.js' 'test/**/*.js!(setup.js)'",
     "test:unit": "jest --config=jest.json --detectOpenHandles",
     "test:features": "wdio wdio.BUILD.conf.js",
-    "wdio": "wdio wdio.conf.js"
+    "wdio": "wdio wdio.conf.js",
+    "allure-report": "node_modules/.bin/allure generate --clean ./test/reports/allure-results && allure open"
   },
-  "dependencies": {},
+  "dependencies": {
+    "allure-commandline": "^2.13.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
@@ -40,6 +43,7 @@
     "@babel/preset-env": "^7.9.0",
     "@babel/register": "^7.9.0",
     "@types/cucumber": "^6.0.1",
+    "@wdio/allure-reporter": "^6.7.2",
     "@wdio/cli": "^6.0.8",
     "@wdio/config": "^6.0.8",
     "@wdio/cucumber-framework": "^6.0.8",

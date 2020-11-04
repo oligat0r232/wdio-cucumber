@@ -1,0 +1,56 @@
+{
+  "uid" : "99f4978d66d3b66d",
+  "name" : "And I navigate to the \"SimpleHtmlElements\" page",
+  "fullName" : "Simple buttons individual: Can click on a button using it's class name.And I navigate to the \"SimpleHtmlElements\" page",
+  "historyId" : "b5be71a73a477011b1c9acb5401dd376",
+  "time" : {
+    "start" : 1604508270250,
+    "stop" : 1604508270250,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I navigate to the \"SimpleHtmlElements\" page"
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99f4978d66d3b66d.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

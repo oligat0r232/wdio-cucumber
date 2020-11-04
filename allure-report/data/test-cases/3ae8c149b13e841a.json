@@ -1,0 +1,56 @@
+{
+  "uid" : "3ae8c149b13e841a",
+  "name" : "Then I should be on the page with the title \"Button success - Ultimate QA\"",
+  "fullName" : "Simple buttons individual: Can click on a button using it's class name.Then I should be on the page with the title \"Button success - Ultimate QA\"",
+  "historyId" : "319442571554dc3fa143d62665b7eeac",
+  "time" : {
+    "start" : 1604508270311,
+    "stop" : 1604508272540,
+    "duration" : 2229
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be on the page with the title \"Button success - Ultimate QA\""
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ae8c149b13e841a.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

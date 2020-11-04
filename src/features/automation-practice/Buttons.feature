@@ -15,16 +15,16 @@ Feature: Simple buttons individual
         And I should see the element "Success Page Title" with text "Button success"
 
     Scenario: Can click on a button using it's class name
-        When I click on the "Id Button" element
+        When I click on the "Class Button" element
         Then I should be on the page with the title "Button success - Ultimate QA"
         And I should see the element "Success Page Title" with text "Button success"
 
-    Scenario: Can click on a button using it's class name
+    Scenario: Can click on a button using it's name
         When I click on the "Name Button" element
         Then I should be on the page with the title "Button success - Ultimate QA"
         And I should see the element "Success Page Title" with text "Button success"
 
-    Scenario: Can click on a button using it's class name
+    Scenario: Can click on a button using it's link text
         When I click on the "Link Text Button" element
-        Then I should be on the page with the title "Button success - Ultimate QA"
+        Then I should be on the page with the title "Link success - Ultimate QA"
         And I should see the element "Success Page Title" with text "Link success"

@@ -1,0 +1,80 @@
+{
+  "uid" : "2a4175711f9f8de3",
+  "name" : "Then I should be on the page with the title \"Button success - Ultimate QA\"",
+  "fullName" : "Simple buttons individual: Can click on a button using it's class name.Then I should be on the page with the title \"Button success - Ultimate QA\"",
+  "historyId" : "319442571554dc3fa143d62665b7eeac",
+  "time" : {
+    "start" : 1604508273504,
+    "stop" : 1604508274128,
+    "duration" : 624
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"Button success - Ultimate QA\"\n                Received string:    \"Link success - Ultimate QA\"",
+  "statusTrace" : "Error: expect(received).toContain(expected) // indexOf\n                \n                Expected substring: \"Button success - Ultimate QA\"\n                Received string:    \"Link success - Ultimate QA\"\n                    at World.<anonymous> (E:\\Test Development\\Documents\\GitHub\\wdio-cucumber\\src\\steps\\/then.js:20:23)\n                    at World.executeSync (E:\\Test Development\\Documents\\GitHub\\wdio-cucumber\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at E:\\Test Development\\Documents\\GitHub\\wdio-cucumber\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be on the page with the title \"Button success - Ultimate QA\""
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3ae8c149b13e841a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508270311,
+        "stop" : 1604508272540,
+        "duration" : 2229
+      }
+    }, {
+      "uid" : "1d2be6cda02da5be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508268475,
+        "stop" : 1604508269892,
+        "duration" : 1417
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2a4175711f9f8de3.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

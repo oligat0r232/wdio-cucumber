@@ -1,0 +1,58 @@
+{
+  "uid" : "9f8c7786a9eb57d",
+  "name" : "And I should see the element \"Success Page Title\" with text \"Link success\"",
+  "fullName" : "Simple buttons individual: Can click on a button using it's class name.And I should see the element \"Success Page Title\" with text \"Link success\"",
+  "historyId" : "3935cbb9db3219c1ae0df8a24a235efb",
+  "time" : {
+    "start" : 1604508274128,
+    "stop" : 1604508274128,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I should see the element \"Success Page Title\" with text \"Link success\""
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f8c7786a9eb57d.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

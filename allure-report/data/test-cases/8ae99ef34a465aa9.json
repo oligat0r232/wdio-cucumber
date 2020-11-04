@@ -1,0 +1,58 @@
+{
+  "uid" : "8ae99ef34a465aa9",
+  "name" : "Given I open the \"simple-html-elements-for-automation\" page",
+  "fullName" : "Simple buttons individual: Can click on a button using it's id.Given I open the \"simple-html-elements-for-automation\" page",
+  "historyId" : "e41d9a2b819cde5a24647238cfbcd80d",
+  "time" : {
+    "start" : 1604508264457,
+    "stop" : 1604508266866,
+    "duration" : 2409
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons individual: Can click on a button using it's id"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons individual: Can click on a button using it's id"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the \"simple-html-elements-for-automation\" page"
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons individual: Can click on a button using it's id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ae99ef34a465aa9.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

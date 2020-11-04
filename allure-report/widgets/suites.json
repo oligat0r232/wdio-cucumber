@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "5a96883ce1b7acc5b69704e501ced56e",
+    "name" : "Simple buttons individual: Can click on a button using it's class name",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "9643870797e0e6f007de29a67a824d56",
+    "name" : "Simple buttons scenario outline: Can click on a button using different selectors",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "17b28833e694511fe03d44ab28bec659",
+    "name" : "Simple buttons individual: Can click on a button using it's id",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

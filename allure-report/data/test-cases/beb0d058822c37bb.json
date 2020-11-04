@@ -1,0 +1,98 @@
+{
+  "uid" : "beb0d058822c37bb",
+  "name" : "Hook",
+  "fullName" : "Simple buttons individual: Can click on a button using it's class name.Hook",
+  "historyId" : "dda6cb339f9d6deb547c2d3ee8c365df",
+  "time" : {
+    "start" : 1604508274128,
+    "stop" : 1604508274129,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a5e04fe256defd53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508272566,
+        "stop" : 1604508272567,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "dc4130ca2906e1da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508272561,
+        "stop" : 1604508272561,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a66368f7afdd6355",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508269909,
+        "stop" : 1604508269909,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9373febf9601ff8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508269904,
+        "stop" : 1604508269904,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e5bc544c1ac62450",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508267942,
+        "stop" : 1604508267942,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "beb0d058822c37bb.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

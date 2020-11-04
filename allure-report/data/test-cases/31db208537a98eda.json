@@ -1,0 +1,74 @@
+{
+  "uid" : "31db208537a98eda",
+  "name" : "Then I should be on the page with the title \"Button success - Ultimate QA\"",
+  "fullName" : "Simple buttons scenario outline: Can click on a button using different selectors.Then I should be on the page with the title \"Button success - Ultimate QA\"",
+  "historyId" : "1c1cc3fb22f7d06f2a918eb8641b41be",
+  "time" : {
+    "start" : 1604508269443,
+    "stop" : 1604508272099,
+    "duration" : 2656
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be on the page with the title \"Button success - Ultimate QA\""
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons scenario outline: Can click on a button using different selectors"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "16d5ddabea951f13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508267925,
+        "stop" : 1604508268876,
+        "duration" : 951
+      }
+    }, {
+      "uid" : "50bcc2c536a96f83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604508266381,
+        "stop" : 1604508267362,
+        "duration" : 981
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31db208537a98eda.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}

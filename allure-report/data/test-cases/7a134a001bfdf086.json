@@ -1,0 +1,58 @@
+{
+  "uid" : "7a134a001bfdf086",
+  "name" : "When I click on the \"Class Button\" element",
+  "fullName" : "Simple buttons individual: Can click on a button using it's class name.When I click on the \"Class Button\" element",
+  "historyId" : "e147113b4dfb034b08d9977172998030",
+  "time" : {
+    "start" : 1604508268418,
+    "stop" : 1604508268475,
+    "duration" : 57
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testClass",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on the \"Class Button\" element"
+  }, {
+    "name" : "package",
+    "value" : "Simple buttons individual: Can click on a button using it's class name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-86.0.4240.183"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a134a001bfdf086.json",
+  "parameterValues" : [ "Chrome-86.0.4240.183" ]
+}
