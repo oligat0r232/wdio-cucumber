@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604509728023' stop='1604509730221'>
+    <name>Simple buttons scenario outline: Can click on a button using different selectors</name>
+    <title>Simple buttons scenario outline: Can click on a button using different selectors</title>
+    <test-cases>
+        <test-case start='1604509728023' status='passed' stop='1604509728023'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604509728023' status='passed' stop='1604509728760'>
+            <name>Given I open the "simple-html-elements-for-automation" page</name>
+            <title>Given I open the "simple-html-elements-for-automation" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604509728760' status='passed' stop='1604509728760'>
+            <name>And I navigate to the "SimpleHtmlElements" page</name>
+            <title>And I navigate to the "SimpleHtmlElements" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604509728760' status='passed' stop='1604509728986'>
+            <name>When I click on the button with "linkText" selector</name>
+            <title>When I click on the button with "linkText" selector</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604509728986' status='passed' stop='1604509730209'>
+            <name>Then I should be on the page with the title "Link success - Ultimate QA"</name>
+            <title>Then I should be on the page with the title "Link success - Ultimate QA"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604509730209' status='passed' stop='1604509730220'>
+            <name>And I should see the element "Success Page Title" with text "Link success"</name>
+            <title>And I should see the element "Success Page Title" with text "Link success"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1604509730221' status='passed' stop='1604509730221'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-86.0.4240.183'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

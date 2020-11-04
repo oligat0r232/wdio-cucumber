@@ -4,8 +4,13 @@ import { simplePage } from '../pages/simple-html-elements.page';
 const { Then } = require('cucumber');
 
 
-Then(/^I should see the element "(.*)" with text "(.*)"$/, (element, text) => {
-    expect(global.page[camelize(element)]).toHaveTextContaining(text)
+Then(/^I should( not)* see the element "(.*)" with text "(.*)"$/, (falseCase, element, text) => {
+    if (falseCase) {
+        expect(global.page[camelize(element)]).not.toHaveTextContaining(text)
+    }
+    else {
+        expect(global.page[camelize(element)]).toHaveTextContaining(text)
+    }
 })
 
 Then(/^I should( not)* be on the page with the title "(.*)"$/, (falseCase, expectedTitle) => {
@@ -24,24 +29,21 @@ Then(/^I should( not)* be on the page with the title "(.*)"$/, (falseCase, expec
     }
 })
 
-Then(/^If I click the row "([^"]*)" then I should the following nested information$/, function (rowName, dataTable) {
-    console.log(dataTable);
-    var data = dataTable.raw();
-    console.log(data);
-    data.forEach(function (element) {
-        console.log("Element:" + element[0]);
-        console.log("Element:" + element[1]);
-    }, this)
-})
-
-Then(/^I should see the success page for the button with "(.*)" selector$/, (selector) => {
-    if (selector == "linkText") {
-        // let elemText = global.page[camelize(element)].getText()
-        console.log(simplePage.buttonSuccessPageTitle())
-        expect(simplePage.buttonSuccessPageTitle()).toHaveText("Link Success")
+Then(/^I should( not)* see the success page for the button with "(.*)" selector$/, (falseCase, selector) => {
+    if (falseCase) {
+        if (selector == "linkText") {
+            expect(simplePage.buttonSuccessPageTitle()).not.toHaveText("Link Success")
+        }
+        else {
+            expect(simplePage.buttonSuccessPageTitle()).not.toHaveText("Button Success")
+        }
     }
     else {
-        //let elemText = global.page[camelize(element)].getText()
-        expect(simplePage.buttonSuccessPageTitle()).toHaveText("Button Success")
+        if (selector == "linkText") {
+            expect(simplePage.buttonSuccessPageTitle()).toHaveText("Link Success")
+        }
+        else {
+            expect(simplePage.buttonSuccessPageTitle()).toHaveText("Button Success")
+        }
     }
 })
