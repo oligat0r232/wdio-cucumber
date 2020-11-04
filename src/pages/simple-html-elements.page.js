@@ -6,8 +6,11 @@ class simpleHtmlElementsPage extends Page {
     }
 
     get idButton() { return $('#idExample') }
-    get buttonSuccessPageTitle() { return $('.entry-title=Button success')}
-
+    get classButton() { return $('.buttonClass')}
+    get nameButton() { return $('[name="button1"]')}
+    get linkTextButton() { return $('=Click me using this link text!')}
+    get buttonSuccessPageTitle() { return $('.entry-title')}
+    get successPageTitle() { return $('.entry-title')}
 }
 
 module.exports = new simpleHtmlElementsPage()

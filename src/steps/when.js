@@ -15,9 +15,12 @@ When(/I navigate to the "(.*)" page/, (name) => {
     }
 })
 
-When(
-    /^I click on the "(.*)" element$/, (element) => {
-        global.page[camelize(element)].waitForDisplayed()
-        global.page[camelize(element)].click()
-    }
-);
+When(/^I click on the "(.*)" element$/, (element) => {
+    global.page[camelize(element)].waitForDisplayed()
+    global.page[camelize(element)].click()
+});
+
+When(/^I click on the button with "(.*)" selector$/, (selector) => {
+    global.page[(selector)+'Button'].waitForDisplayed()
+    global.page[(selector)+'Button'].click()
+})
