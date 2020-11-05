@@ -7,6 +7,12 @@ One feature file includes separate scenarios for different button selectors and 
 first feature file.
 This repo also contains a great reporting tool called Allure.
 
+The purpose of this project is to demonstrate the ease of setup and use of wdio with cucumber alongside my understanding of BDD style test case writing 
+using the Gherkin syntax and step definition/page object design.
+
+https://ultimateqa.com/automation/ is a great website for practising automation frameworks. It includes plenty of commonly used elements from many websites
+such as different styles of buttons, log in forms etc.
+
 ## Quick start
 
 Choose one of the following options:

@@ -3,7 +3,7 @@ import { camelize } from '../support/lib/functions';
 
 const { When } = require('cucumber');
 
-When(/I navigate to the "(.*)" page/, (name) => {
+When(/the tester uses the "(.*)" page object/, (name) => {
     pageAggregator.forEach(page => {
         if (page.name === name) {
             global.page = page
@@ -15,6 +15,12 @@ When(/I navigate to the "(.*)" page/, (name) => {
     }
 })
 
+/**
+ * Rather than simply taking the argument 'element' and performing an action on it, I have utlised a camelise function 
+ * with the intention of taking whatever string is passed into the element argument and camelise it to match the name
+ * in the page object. This enables me to use the page object elements directly in the feature files using real English
+ * rather than, for example, id-button etc.
+ */
 When(/^I click on the "(.*)" element$/, (element) => {
     global.page[camelize(element)].waitForDisplayed()
     global.page[camelize(element)].click()

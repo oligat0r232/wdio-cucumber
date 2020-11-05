@@ -3,7 +3,12 @@ import { simplePage } from '../pages/simple-html-elements.page';
 
 const { Then } = require('cucumber');
 
-
+/**
+ * Whenever I design steps and step definitions, I try to make them as reusable as possible.
+ * In this example, the step definition covers both verifying that an element with specific text
+ * does exist alongside verifying that the particular element does not exist.
+ * I do not use the falseCase in this project but it is rather a case of forward planning.
+ */
 Then(/^I should( not)* see the element "(.*)" with text "(.*)"$/, (falseCase, element, text) => {
     if (falseCase) {
         expect(global.page[camelize(element)]).not.toHaveTextContaining(text)

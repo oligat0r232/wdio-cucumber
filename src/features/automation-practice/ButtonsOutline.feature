@@ -1,4 +1,6 @@
-# This is an improvement on the Buttons.feature file with one scenario covering all buttons and success pages
+# This is an improvement on the Buttons.feature file with one scenario covering all buttons and success pages.
+# Although eac row in the examples table is executed as a separate test when run, the file itself is easier to maintain
+# As there is only one test scenario.
 Feature: Simple buttons scenario outline
 
     As an automation tester
@@ -7,7 +9,7 @@ Feature: Simple buttons scenario outline
 
     Background: Navigate to the correct url and pageobject
         Given I open the "simple-html-elements-for-automation" page
-        And I navigate to the "SimpleHtmlElements" page
+        And the tester uses the "SimpleHtmlElements" page object
 
     Scenario Outline: Can click on a button using different selectors
         When I click on the button with "<selector>" selector
